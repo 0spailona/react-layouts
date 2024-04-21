@@ -1,0 +1,60 @@
+.shopCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    max-width: 80%;
+    min-width: 250px;
+    width: 350px;
+    box-sizing: border-box;
+    padding: 2rem;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -webkit-box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.titleCard {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.colorCard {
+    font-size: 0.9rem;
+}
+
+.imageCardWrp {
+    position: relative;
+    min-width: 80%;
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.imageCard {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    object-position: center;
+}
+
+.priceAndAddBtnCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: darkred;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.addBtnCard {
+    border: 1px solid darkred;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+}

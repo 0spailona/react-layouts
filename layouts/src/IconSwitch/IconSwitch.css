@@ -1,0 +1,5 @@
+.switchBtn {
+    align-self: end;
+    width: fit-content;
+    cursor: pointer;
+}
